@@ -1,0 +1,70 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+*.log.*
+log/
+debug.log
+debug.log.*
+
+# TypeScript build files
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database files (TypeORM, SQLite)
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+typeorm*.json
+ormconfig.json
+ormconfig.ts
+database.sqlite
+
+# TypeORM migrations
+/migrations/
+
+# Compiled TypeScript files
+*.tsbuildinfo
+*.d.ts
+*.map
+
+# VSCode settings
+.vscode/
+
+# MacOS / Windows System Files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+/coverage/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+
+# GitHub Actions
+/.github/workflows/
+
+# IDE/Editor settings
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+*.sw?
+
